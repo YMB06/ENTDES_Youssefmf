@@ -170,32 +170,3 @@ public class App {
     }
 }
 
-/* use this as an example to make the relation between users and posts class to store posts on their respective users
-
-    public static void insertarAutores() {
-        int i = 1;
-        while (i <= 2) {
-            Autor autor = new Autor(i);
-            System.out.println("Nombre del autor: ");
-            autor.setNombre(biblioteca.entrada.next());
-            System.out.println("Nif del autor: ");
-            autor.setNif(biblioteca.entrada.nextInt());
-            biblioteca.LAutores.add(autor);
-            i++;
-        }
-    }
-public static void insertarLibros() {
-        int i = 10;
-        while (i <= 11) {
-            // el i (pk) se genera automaticax
-            Libro libro = new Libro(i);
-            System.out.println("Autor del libro: ");
-            int nif = biblioteca.entrada.nextInt(); // Primary key del libro
-            // Busca ese nif en la lista de autores y devuelve el autor
-            Autor autor = biblioteca.buscarAutor(nif); // busca
-            libro.setAutor(autor);
-            autor.setLibros(libro); // al autor le paso el libro del que es autor
-            biblioteca.LLibros.add(libro);// añade ese libro al array de libros
-            i++;
-        }
-    }*/
